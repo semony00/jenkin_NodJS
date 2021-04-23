@@ -16,7 +16,7 @@ pipeline {
 		}
 		stage("Test"){
 			steps{
-				sh "node.js"
+				sh "node app.js"
 			}
 		}
 		stage("Release the version"){
